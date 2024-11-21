@@ -251,7 +251,7 @@ export const createCrudOptions = function ({crudExpose}: CreateCrudOptionsProps)
                     },
                     type: 'dict-select',
                     dict: dict({
-                        url: '/api/system/role/',
+                        url: '/api/system/role/?limit=999',
                         value: 'id',
                         label: 'name',
                     }),
